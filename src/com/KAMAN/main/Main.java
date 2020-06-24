@@ -40,7 +40,7 @@ public class Main {
     @Test(priority=1 , dataProvider = "userData")
     public void Login_Kaman(String Name, String Pass) throws Exception {
     	login.KAMAN_login(Name,Pass);
-    	System.out.println("");
+    	System.out.println("From Branch A");
     	Thread.sleep(2000);
     	
     }
