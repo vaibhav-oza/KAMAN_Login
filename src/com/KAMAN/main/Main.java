@@ -41,6 +41,7 @@ public class Main {
     public void Login_Kaman(String Name, String Pass) throws Exception {
     	login.KAMAN_login(Name,Pass);
     	System.out.println("From Branch A");
+    	System.out.println("From Branch B");
     	Thread.sleep(2000);
     	
     }
